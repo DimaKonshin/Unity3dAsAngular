@@ -5,9 +5,8 @@ using UnityEngine;
 public class HeroHome : MonoBehaviour
 {
     [SerializeField] GameObject timer;
-    [SerializeField] float delayTime = 5;
+    [SerializeField] float delayTime = 2;
 
-    // Start is called before the first frame update
     void Start()
     {
         InjectFn();
@@ -15,12 +14,14 @@ public class HeroHome : MonoBehaviour
 
     private void InjectFn()
     {
-        //Instantiate(timer).GetComponent<Timer>().CallFunctionAfterSeconds(delayTime, () => {
-        //    Debug.Log("Stop");
-        //});
         timer.GetComponent<Timer>().CallFunctionAfterSeconds(delayTime, () => {
-            Debug.Log("Stop");
-            Destroy(timer);
+            CallFunctionAfterSeconds();
         });
+    }
+    
+    private void CallFunctionAfterSeconds()
+    {
+        Debug.Log("Stop " + CalculatePoints.GetPoints());
+        Destroy(timer);
     }
 }

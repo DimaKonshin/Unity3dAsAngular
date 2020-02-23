@@ -60,8 +60,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\@common\constants\Roles.cs" />
+    <Compile Include="Assets\Scripts\@common\enums\Days.cs" />
+    <Compile Include="Assets\Scripts\@common\models\Person.cs" />
+    <Compile Include="Assets\Scripts\@core\components\Header.cs" />
+    <Compile Include="Assets\Scripts\@core\services\Calculator.cs" />
+    <Compile Include="Assets\Scripts\@shared\components\Stars.cs" />
     <Compile Include="Assets\Scripts\@shared\services\Timer.cs" />
     <Compile Include="Assets\Scripts\hero\components\HeroHome.cs" />
+    <Compile Include="Assets\Scripts\hero\services\CalculatePoints.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>F:/1Projects/3Unity3D/34AsAngular/AsAngular/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

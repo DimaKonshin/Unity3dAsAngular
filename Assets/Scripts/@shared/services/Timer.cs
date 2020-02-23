@@ -23,6 +23,7 @@ public class Timer : MonoBehaviour
     {
         _startTime = 0;
         _endTime = endTime;
+        _isStop = false;
         _actionWhenTimeIsOver = action;
     }
 }
