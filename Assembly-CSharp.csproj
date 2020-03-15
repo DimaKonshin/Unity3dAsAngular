@@ -66,9 +66,9 @@
     <Compile Include="Assets\Scripts\@core\components\Header.cs" />
     <Compile Include="Assets\Scripts\@core\services\Calculator.cs" />
     <Compile Include="Assets\Scripts\@shared\components\Stars.cs" />
-    <Compile Include="Assets\Scripts\@shared\services\Distancer.cs" />
-    <Compile Include="Assets\Scripts\@shared\services\Mover.cs" />
-    <Compile Include="Assets\Scripts\@shared\services\Timer.cs" />
+    <Compile Include="Assets\Scripts\@shared\directives\Distancer.cs" />
+    <Compile Include="Assets\Scripts\@shared\directives\Mover.cs" />
+    <Compile Include="Assets\Scripts\@shared\directives\Timer.cs" />
     <Compile Include="Assets\Scripts\hero\components\HeroHome.cs" />
     <Compile Include="Assets\Scripts\hero\services\CalculatePoints.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">

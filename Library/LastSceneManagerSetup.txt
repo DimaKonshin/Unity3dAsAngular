@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/DistancerScene.unity
+- path: Assets/Scenes/MoverScene.unity
   isLoaded: 1
   isActive: 1
