@@ -67,10 +67,16 @@
     <Compile Include="Assets\Scripts\@core\services\Calculator.cs" />
     <Compile Include="Assets\Scripts\@shared\components\Stars.cs" />
     <Compile Include="Assets\Scripts\@shared\directives\Distancer.cs" />
+    <Compile Include="Assets\Scripts\@shared\directives\Inputer.cs" />
     <Compile Include="Assets\Scripts\@shared\directives\Mover.cs" />
     <Compile Include="Assets\Scripts\@shared\directives\Timer.cs" />
     <Compile Include="Assets\Scripts\hero\components\HeroHome.cs" />
     <Compile Include="Assets\Scripts\hero\services\CalculatePoints.cs" />
+    <Compile Include="Assets\Scripts\Inputers\InputerForGameObjects.cs" />
+    <Compile Include="Assets\Scripts\Inputers\InputerForGO2.cs" />
+    <Compile Include="Assets\Scripts\Inputers\InputerForGO3.cs" />
+    <Compile Include="Assets\Scripts\Inputers\InputerForMainMenu.cs" />
+    <Compile Include="Assets\Scripts\Inputers\InputerForMenu.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>F:/1Projects/3Unity3D/34AsAngular/AsAngular/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

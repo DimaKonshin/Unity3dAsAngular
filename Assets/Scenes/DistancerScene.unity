@@ -184,6 +184,16 @@ PrefabInstance:
       propertyPath: targetTransform
       value: 
       objectReference: {fileID: 293418423}
+    - target: {fileID: 765362871971888166, guid: fcd4304d4e156c44784eafdd14803697,
+        type: 3}
+      propertyPath: delayTime
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 765362871971888166, guid: fcd4304d4e156c44784eafdd14803697,
+        type: 3}
+      propertyPath: targetDistance
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fcd4304d4e156c44784eafdd14803697, type: 3}
 --- !u!1 &293418419
